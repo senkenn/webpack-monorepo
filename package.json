@@ -1,0 +1,7 @@
+{
+  "workspaces": ["a", "b"],
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.3"
+  }
+}

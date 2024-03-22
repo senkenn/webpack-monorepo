@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"sourceMap": true,
+
+		/* Basic Options */
+		"target": "ES2022",
+		"module": "commonjs",
+
+		/* Strict Type-Checking Options */
+		"strict": true,
+
+		/* Additional Checks */
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+
+		/* Module Resolution Options */
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+
+		/* Experimental Options */
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		/* Advanced Options */
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+
+    "paths": {
+      "pkg-b": ["../b"]
+    },
+    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDir": "../"
+	},
+  "include": ["src", "../b/src"],
+}
