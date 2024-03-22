@@ -17,7 +17,7 @@ const extensionConfig = {
 	resolve: {
 		extensions: [".ts", ".js"],
     alias: {
-      "pkg-b": path.resolve(__dirname, "../b"),
+      "pkg-b": path.resolve(__dirname, "..", "b", "src"),
     }
 	},
 	module: {
